@@ -1,0 +1,33 @@
+@media (max-width: 991px) {
+    .container{
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+    .first{
+        margin-right: 30px;
+    }
+    .first,.second{
+        width: 48%;
+    }
+    .div_item{
+        margin-bottom: 30px;
+    }
+    .three{
+        width: 100%;
+    }
+  }
+  @media (max-width: 811px) {
+    .first,.second{
+        width: 46%;
+    }
+    .three{
+        width: 98%;
+    }
+  }
+
+  @media (max-width: 767px) {
+  .div_item{
+      width: 98%;
+      margin-right: 0;
+  }
+  }
